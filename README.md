@@ -1,6 +1,6 @@
 # python-api-challenge
 ## Part 1: WeatherPy
-#### Use Python requests, APIs, and JSON traversals to analyze weather data
+### Use Python requests, APIs, and JSON traversals to analyze weather data
 I created a Python script to visualize weather data of over 500 cities at different distances from the equator
 I used the citipy Python library and the OpenWeatherMap API to create a representative model of weather across cities.
 
@@ -37,7 +37,7 @@ Southern Hemisphere: Wind Speed vs. Latitude
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
 ## Part 2: VacationPy
-#### Use the Geoapify API and the geoViews Python library to create map visualizations
+### Use the Geoapify API and the geoViews Python library to create map visualizations
  Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
 
 Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.

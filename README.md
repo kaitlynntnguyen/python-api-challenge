@@ -2,8 +2,8 @@
 ## Part 1: Create a Python script to visualize the weather of over 500 cities of varying distances from the equator.
 I used the citipy Python library and the OpenWeatherMap API to create a representative model of weather across cities.
 
-  - Create Plots to Showcase the Relationship Between Weather Variables and Latitude
-  -   To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
+# Create Plots to Showcase the Relationship Between Weather Variables and Latitude
+  - To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
 
 Latitude vs. Temperature
 

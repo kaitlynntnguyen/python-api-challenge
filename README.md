@@ -3,18 +3,14 @@
 I used the citipy Python library and the OpenWeatherMap API to create a representative model of weather across cities.
 
 #### Create Plots to Showcase the Relationship Between Weather Variables and Latitude
-  - To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
+  - I used the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code and created a series of scatter plots to showcase the following relationships:
+    - Latitude vs. Temperature
+    - Latitude vs. Humidity
+    - Latitude vs. Cloudiness
+    - Latitude vs. Wind Speed
 
-Latitude vs. Temperature
-
-Latitude vs. Humidity
-
-Latitude vs. Cloudiness
-
-Latitude vs. Wind Speed
-
-Requirement 2: Compute Linear Regression for Each Relationship
-To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
+#### Compute Linear Regression for Each Relationship
+  - I computed the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). 
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
 

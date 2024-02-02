@@ -1,6 +1,6 @@
 # python-api-challenge
-## Part 1: WeatherPy
-### Use Python requests, APIs, and JSON traversals to analyze weather data
+### Part 1: WeatherPy
+#### Use Python requests, APIs, and JSON traversals to analyze weather data
 I created a Python script to visualize weather data of over 500 cities at different distances from the equator
 
   1. In order to create the list of cities I created a set of random latitude and longitude combinations, used the `citipy` library to find the nearest city, and stored the name of the city and the latitude and longitude in a list. I used `len()` to confirm the list of cities was longer than 500, it was 626.
@@ -20,8 +20,8 @@ I created a Python script to visualize weather data of over 500 cities at differ
     - Northern Hemisphere: Wind Speed vs. Latitude
     - Southern Hemisphere: Wind Speed vs. Latitude
 
-## Part 2: VacationPy
-### Use the `Geoapify API` and the `geoViews` Python library to create map visualizations
+### Part 2: VacationPy
+#### Use the `Geoapify API` and the `geoViews` Python library to create map visualizations
   1. I imported the list of cities stored in the `cities.csv` file from Part 1 and stored the data in a dataframe.
   2. I used the `gmaps` library to create a heatmap that displayed each city and the humidity of each city determined the size of the marker.
   3. I created a new dataframe that included only cities where the maximum temperature was below 27 and above 21, a humidity below 70%, no cloudiness, and wind speed below 4.5 mph.
